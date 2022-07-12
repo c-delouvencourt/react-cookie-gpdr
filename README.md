@@ -1,4 +1,4 @@
-### react-cookie-consent
+## react-cookie-gpdr
 🍪 Beautiful and customizable react cookie consent widget for your applications
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/clementdlc)
