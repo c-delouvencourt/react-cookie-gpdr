@@ -12,6 +12,22 @@ ___
 npm install react-cookie-gpdr
 ```  
 
+## :raised_hands: Example
+
+```js  
+ <CookieWidget location="right"
+               color={"#bb2030"}
+               policyLink={"https://example.org"}
+               title={"This website"}
+               subtitle={"uses cookies"}
+               text={"We use cookies and similar methods to recognize visitors and remember their preferences. We also use them to measure ad campaign effectiveness, target ads and analyze site traffic."}
+               policyLinkText={"Read the privacy policy"}
+               cookieSecurity={true}
+               hideOnScrollDown={true}
+               onAccept={() => alert('accepted')}
+               onReject={() => alert('refused')}/>
+```  
+
 ## :rocket: Props
 
 | Props | Description | Default value
