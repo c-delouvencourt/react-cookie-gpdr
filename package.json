@@ -1,6 +1,6 @@
 {
   "name": "react-cookie-gpdr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🍪 Beautiful and customizable cookie consent widget for your applications",
   "homepage": "https://c-delouvencourt.github.io/react-cookie-gpdr",
   "scripts": {
