@@ -14,7 +14,9 @@ npm install react-cookie-gpdr
 
 ## :raised_hands: Example
 
-```js  
+An example of the react-cookie-gpdr component is available here : [Example of use](https://c-delouvencourt.github.io/react-cookie-gpdr/)
+
+```jsx
  <CookieWidget location="right"
                color={"#bb2030"}
                policyLink={"https://example.org"}
