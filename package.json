@@ -7,9 +7,9 @@
     "rollup": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "build-storybook": "build-storybook -o docs",
     "predeploy": "npm run rollup && npm run build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static"
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
