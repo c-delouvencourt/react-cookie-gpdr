@@ -1,0 +1,71 @@
+{
+  "name": "react-cookie-gpdr",
+  "version": "1.0.0",
+  "description": "🍪 Beautiful and customizable cookie consent widget for your applications",
+  "homepage": "https://c-delouvencourt.github.io/react-cookie-gpdr",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "predeploy": "npm run rollup && npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-delouvencourt/react-cookie-gpdr.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "c-delouvencourt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-delouvencourt/react-cookie-gpdr/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack5": "^6.5.9",
+    "@storybook/manager-webpack5": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@testing-library/react": "^13.3.0",
+    "@types/jest": "^28.1.4",
+    "@types/js-cookie": "^3.0.2",
+    "@types/react": "^18.0.15",
+    "babel-jest": "^28.1.2",
+    "babel-loader": "^8.2.5",
+    "gh-pages": "^4.0.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^28.1.2",
+    "react-dom": "^18.0.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "js-cookie": "^3.0.1"
+  }
+}
